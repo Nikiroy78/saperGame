@@ -1,0 +1,8 @@
+{
+	"pythonRun": false,
+	"pythonPath_win32": "python ",
+	"pythonPath_unix": "python3 ",
+	"max_responseTime": 15,
+	"core_file": "gamecore.exe",
+	"log_enable": true
+}

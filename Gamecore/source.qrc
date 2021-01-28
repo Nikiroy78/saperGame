@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="source">
+    <file>clocks.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>
