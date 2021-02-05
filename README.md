@@ -8,10 +8,10 @@
 Ниже приведён пример конфигурационного файла ядра.
 ```json
     {
-    	"pythonRun": true,                    # Запуск ядра при помощи python
-    	"pythonPath_win32": "python ",        # Путь к python на OS Windows x64
-    	"pythonPath_unix": "python3 ",        # Путь к python на GNU Linux
-    	"max_responseTime": 15,               # Время ожидания отклика ядра (сек)
+    	"pythonRun": true,                    #  Запуск ядра при помощи python
+    	"pythonPath_win32": "python ",        #  Путь к python на OS Windows x64
+    	"pythonPath_unix": "python3 ",        #  Путь к python на GNU Linux
+    	"max_responseTime": 15,               #  Время ожидания отклика ядра (сек)
     	"core_file": "gamecore.py",           #  Файл ядра
     	"log_enable": false                   #  Включить логгирование
     }
@@ -20,15 +20,15 @@
 Запросы принимаются через файл **gamestat.json**
 ```json
 {
-	"status": "method"  # Метод
-	"request": []       # Тело запроса
+	"status": "method"  #  Метод
+	"request": []       #  Тело запроса
 }
 ```
 После выполнения запроса, ядро высылает ответ в файле **response.json**
 ```json
 {
-	"response": []           # Тело ответа
-	"response_randomID": []  # random ID
+	"response": []           #  Тело ответа
+	"response_randomID": []  #  random ID
 }
 ```
 Подробнее читайте в документации.
